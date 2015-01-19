@@ -4,5 +4,9 @@ version = "0.0.1-pre"
 authors = []
 
 [dependencies.bitflags]
-git = "https://github.com/Tobba/bitflags.git"
-rev = "23f1927c4e4185397a130f0b9fc302a8892ede46"
+git = "https://github.com/RustOS-Fork-Holding-Ground/bitflags"
+branch = "rustos"
+
+[dependencies.core]
+git = "https://github.com/RustOS-Fork-Holding-Ground/rust"
+branch = "rustos"
